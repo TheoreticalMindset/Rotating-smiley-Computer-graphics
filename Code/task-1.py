@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 # z, x, y, r, g, b
-img = np.loadtxt(r'C:\Users\eriks\OneDrive\Desktop\Quantum Physics\Case studies\Computer graphics\Code\smiley.txt', delimiter=',')
+img = np.loadtxt('smiley.txt', delimiter=',')
 img = img.T
 
 def visualize(inp):
